@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import authRoutes from './routes/Auth.js';
+import authRoutes from './routes/auth.js';
 import transactionRoutes from './routes/transaction.js';
 import teamRoutes from './routes/team.js';
 import './recurring.js';
